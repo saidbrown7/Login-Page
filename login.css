@@ -1,0 +1,70 @@
+body{
+    background-color: #000033;
+}
+form{
+    margin-left: 40%;
+    margin-top: 2%;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: #2e3336
+}
+.header{
+    background-color: rgb(24, 20, 20);
+    padding: 10px;
+}
+#singup{
+    color: #ea7929;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 150px;
+    
+}
+#img{
+    margin-left: 29%;
+    width: 60px;
+    
+}
+.profilePic{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#reg{
+    margin-left: 29px;
+    color: rgb(255, 255, 255);
+}
+#button{
+    width: 90px;
+    margin-top: 20%;
+    margin-left: 140px;
+    background-color: #ea7929;
+    color: #fff;
+}
+
+input{
+    padding: 10px;
+    margin-left: 29px;
+    width: 300px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+#angleLeft, #moon{
+    color: #ea7929;
+    
+}
+#moon{
+    margin-left: 140px;
+}
+
+span{
+    position: relative;
+    right:10%;
+    transform: translate(0,-50%);
+    bottom: 1px;
+    cursor: pointer;
+}
+.fa{
+    font-size: 20px;
+    color: #7a797e;
+}

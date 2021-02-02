@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loging Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <form action="">
+        <div class="header">    
+            <a href="#"><i class="fa fa-angle-left" aria-hidden="true" id="angleLeft"></i></a>
+            <a href="#" id="singup"> sing up</a>
+            <a href="#"><i class="fa fa-moon-o" aria-hidden="true" id="moon"></i></a> 
+        </div>
+
+        <div class="profilePic">
+            <img src="user-icon.png" alt="icon user" 
+            width="80px" id="img">
+        </div>
+
+        <div>
+        <p id="reg">Register </p>
+        <input type="text" name="user" id="username" placeholder="Username"> <br> <br>
+        <input type="password" name="user" id="pass" placeholder="password">
+        
+        <span><i class="fa fa-eye" aria-hidden="true" 
+            id="eye" onclick="show_hide()"></i></span>
+        <br>
+        <input type="submit" value="Done" id="button">
+        </div>
+    </form>
+
+    <script src="login.js"></script>
+
+</body>
+</html>
